@@ -686,7 +686,8 @@ border-radius: 50%;
 }
 
 .modal {
-  display: flex; position: absolute;
+  display: flex;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -705,7 +706,7 @@ border-radius: 50%;
   padding-top: 8px;
   padding-right: 8px;
   
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 
