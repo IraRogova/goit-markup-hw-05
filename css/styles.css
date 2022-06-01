@@ -879,11 +879,14 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 
 
 
+
+
 .link-shadow:hover .img-hover::before{
   opacity: 1;
-  
   transform: translateY(0);
 }
+
+
 
 .content-hover {
   position: absolute;
