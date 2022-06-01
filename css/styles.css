@@ -97,6 +97,12 @@ ul {
   padding-bottom: 24px;
 }
 
+.navigation .menu-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .navigation .accent {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
