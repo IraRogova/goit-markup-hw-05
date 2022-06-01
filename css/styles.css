@@ -690,6 +690,7 @@ border-radius: 50%;
 
 .modal {
   display: flex;
+  justify-content: end;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -704,13 +705,26 @@ border-radius: 50%;
  border-radius: 4px;
 }
 
-.close-modal {
-  margin-left: auto;
-  padding-top: 8px;
-  padding-right: 8px;
-  
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+.boreder-svg {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+  border : 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
+
+/* .close-modal {
+  margin-right: 8px;
+  margin-top: 8px;
+    
+  border : 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+ 
+} */
 
 
 /* ======== /FOOTER ========*/
