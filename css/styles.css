@@ -201,7 +201,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-black);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-phone {
@@ -212,14 +212,14 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-black);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .nav-icons {
   margin-right: 10px;
   fill: var(--accent-black);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-nav:hover .nav-icons,
@@ -732,7 +732,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.boreder-svg {
+.border-svg {
   display: flex;
   justify-content: center;
   align-items:center;
